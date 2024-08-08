@@ -4,51 +4,51 @@
     <title>Form3</title>
 </head>
 <body>
-    <form>
-    <table align="center" bgcolor="silver" cellpadding="5px" cellspacing="10px">
-        <caption ><u>REGISTRATION FORM</u></caption>
+    <form action="MyServlet" method="post">
+    <table align="center" bgcolor="silver" cellpadding="5px" cellspacing="5px">
+        <caption ><u><h2>REGISTRATION FORM</h2></u></caption>
         <tr>
-            <td><label>First Name</label></td>
-            <td><input type="text"></td>
+            <td><label for="id1">First Name</label></td>
+            <td><input type="text" name="n1" id="id1" required placeholder="Enter first name"></td>
         </tr>
         <tr>
-            <td><label>Last Name</label></td>
-            <td><input type="text"></td>
+            <td><label for="id2">Last Name</label></td>
+            <td><input type="text" name="n2" id="id2" required placeholder="Enter last name"></td>
         </tr>
         <tr>
-            <td><label>Nick Name</label></td>
-            <td><input type="text"></td>
+            <td><label for="id3">Nick Name</label></td>
+            <td><input type="text" name="n3" id="id3" required placeholder="Enter nick name"></td>
         </tr>
         <tr>
-            <td><label>Email</label></td>
-            <td><input type="email"></td>
+            <td><label for="id4">Email</label></td>
+            <td><input type="email" name="n4" id="id4" required placeholder="Enter email"></td>
         </tr>
         <tr>
-            <td><label>Password</label></td>
-            <td><input type="password"></td>
+            <td><label for="id5">Password</label></td>
+            <td><input type="password" name="n5" id="id5" required placeholder="Enter password"></td>
         </tr>
         <tr>
-            <td> <label>DOB</label></td>
-            <td><input type="date"></td>
+            <td> <label for="id6">DOB</label></td>
+            <td><input type="date" name="n6" id="id6" required></td>
         </tr>
         <tr>
-            <td><label>Gender</label></td>
-            <td><input type="radio" value="Male">Male
-                <input type="radio" value="Female">Female
-                <input type="radio" value="Others">Others</td>
+            <td><label for="id71">Gender</label></td>
+            <td><input type="radio" value="Male" name="n7" id="id71" required >Male
+                <input type="radio" value="Female" name="n7" id="i72" required>Female
+                <input type="radio" value="Others" name="n7" id="id73" required>Others</td>
         </tr>
         <tr>
-            <td><label>Mobile</label></td>
-            <td><input type="number"></td>
+            <td><label for="id8">Mobile</label></td>
+            <td><input type="number" name="n8" id="id8" required placeholder="Enter mobile number"></td>
         </tr>
         <tr>
-            <td><label>Address:</label></td>
-            <td><textarea rows="5" cols="20"></textarea></td>
+            <td><label for="id9">Address:</label></td>
+            <td><textarea rows="5" cols="20" name="n9" id="id9" required placeholder="Enter Address"></textarea></td>
         </tr>
         <tr>
             <td> </td>
-            <td><input type="submit" value="submit">
-            <input type="reset" value="reset"></td>
+            <td><input type="submit" value="submit" name="n10" id="id10" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="reset" name="n11" id="id11" required></td>
         </tr>
     </table>
     </form>
